@@ -1,0 +1,55 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(234, 215, 184);
+    height: 100vh;
+}
+.navbar {
+    background-color: rgb(35, 33, 33);
+    width: 100%;
+    height: 20%auto;
+}
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar{
+    color: white;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.li-navbar:hover{
+    background-color: grey;
+    transition: 0.2s ease-in-out;
+    transition-delay: 0.2s;
+}
+.content {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.content-1 {
+    width: 20%;
+    height: 20%;
+}
+.footer {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-footer {
+position: relative;
+font-weight: 400;
+}
+
+.a-contact a:hover{
+    background-color: gray;
+}
